@@ -1,1 +1,24 @@
-Teste
+1 - conversor de ficheiro para XML/JSon
+
+Temos um ficheiro BNF que nos indica as regras do parser.
+Também por ser usado um xml, com regras de validação como por exemplo "number<1000"
+
+2 - Manipulação do ficheiro estruturado
+
+O ficheiro é visto como uma tabela.
+Se nada for especificado, temos uma tabela gigante. Um ficheiro XML pode no entanto dizer a definição das tabelas.
+
+- divisão / junção de tabelas (normalização).
+- organização - possíbilidade de termos árvore em vez de tabela. totalizações.
+- filtragem de valores
+- criação de colunas novas, baseadas em regras e usando as colunas já existentes
+- remoção de colunas
+- ordenações
+
+3 - Escrita em ficheiro original
+
+Baseado no BNF
+
+Outros:
+- possibilidade de fazer a conversão "on the fly", sem ler tudo para memória e só depois processar.
+- possibilidade de fazer um executável para fazer a conversão
